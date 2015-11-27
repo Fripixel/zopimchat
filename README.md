@@ -5,6 +5,10 @@
 
 This plugins will add the zopim chat to your opencart store
 
+you can get a zopim code at:
+
+http://dashboard.zopim.com
+
 *Done! Enjoy it!*
 
 **Developed by:** http://www.fripixel.com.br
