@@ -27,7 +27,14 @@
         <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form-zopimchat" class="form-horizontal">
           
           <div class="form-group">
-            <label class="col-sm-2 control-label" for="input-zopimchat_code"><?php echo $entry_zopimchat_code; ?></label>
+            <label class="col-sm-2 control-label" for="input-zopimchat_code">
+              <div>
+                <?php echo $entry_zopimchat_code; ?>
+              </div>
+              <div>
+                <a href="https://dashboard.zopim.com/#widget/getting_started" target="_blank"><strong>[Get Code]</strong></a>
+              </div>
+            </label>
             <div class="col-sm-10">
               
               <textarea rows="10" name="zopimchat_code" placeholder="<?php echo $entry_zopimchat_code; ?>" id="input-zopimchat_code" class="form-control" ><?php echo $zopimchat_code; ?></textarea>
